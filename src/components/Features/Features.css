@@ -1,0 +1,56 @@
+.bee{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.mob{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.feat{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+.do p{
+    color: rgb(197, 32, 32);
+}
+.del svg{
+    color: rgb(197, 32, 32);
+    font-size: 50px;
+}
+.stra svg{
+    color: rgb(197, 32, 32);
+    font-size: 50px;
+}
+.stra{
+    background-color: rgb(22, 22, 22);
+    padding: 40px 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.del{
+    background-color: rgb(22, 22, 22);
+    padding: 40px 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width:950px) {
+    .bee{
+        flex-direction: column;
+    }
+    .mob{
+        flex-direction: column;
+    }
+
+    .feat{
+        padding: 10px;
+    }
+}

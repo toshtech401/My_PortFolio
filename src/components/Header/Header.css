@@ -1,0 +1,69 @@
+h2{
+    font-size: 70px;
+}
+
+span{
+    color: rgb(201, 17, 17);
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 30px;
+}
+
+.src{
+    background:  rgb(22, 22, 22);
+}
+
+.src img{
+    height: 80vh;
+}
+
+.icon{
+    display: flex;
+    gap: 40px;
+}
+.one{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.two{
+    display: flex;
+    gap: 15px;
+}
+
+svg{
+    background-color: black;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.tech{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:950px) {
+    .header{
+        flex-direction: column;
+        padding: 5px;
+        gap: 20px;
+    }
+
+    .me{
+        padding: 5px;
+    }
+}

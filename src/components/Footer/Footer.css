@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    border-bottom: 1px solid black;
+}
+
+.footer img{
+    height: 10vh;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ol li{
+    font-style: normal;
+    font-size: larger;
+}
+.oll h3{
+    color: rgb(197, 32, 32);
+}
+
+ol li:hover{
+    color: rgb(197, 32, 32);
+    cursor: pointer;
+}
+
+.ddd{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.oll{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.year{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    gap: 5px;
+    padding: 5px;
+}

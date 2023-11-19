@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  list-style: none;
+  outline: none;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+body{
+  background-color:rgb(35, 32, 32);
+  color: #fff;
+}
+li{
+  font-size: large;
+  font-style: italic;
+}
+p{
+  color: grey;
+  font-size: larger;
+}
+
+.sidebar{
+  color: #fff;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo-icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background: rgba(28, 17, 41, 0.88);
+}
+
+.menu-bar{
+  height: 88vh;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1rem;
+  position: relative;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.toggle-theme-btn{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+
+}
+
+.toggler{
+  margin-left: 15px;
+  position: relative;
+  right: 50px; 
+  left: 0;
+}
+.split{
+  display: flex;
+}
+
+
+@media screen and (max-width:950px) {
+  .res{
+    z-index: 999;
+  }
+}

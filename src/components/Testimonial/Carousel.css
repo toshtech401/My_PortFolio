@@ -1,0 +1,73 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    padding: 30px;
+    height: 40vh;
+    font-size: larger;
+    box-shadow: 2px 2px 5px grey;
+    background:  rgb(22, 22, 22);
+    padding: 10px 40px;
+    width: 40%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+  
+img {
+    height: 40vh;
+    border-radius: 20px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.tess{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.doe p{
+    color: rgb(197, 32, 32);
+}
+.doe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .left {
+    left: 1em;
+  }
+  
+  .right {
+    right: 1em;
+  }
+  

@@ -1,0 +1,10 @@
+.git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.github-contributions-container {
+    margin-bottom: 20px; 
+  }
