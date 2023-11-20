@@ -45,3 +45,14 @@ ol li:hover{
     gap: 5px;
     padding: 5px;
 }
+
+@media screen and (max-width:950px) {
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .ddd img{
+        height: 10vh;
+        width: 30%;
+    }
+}

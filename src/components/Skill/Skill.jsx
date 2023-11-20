@@ -13,7 +13,6 @@ const Skill = () => {
   ];
   return (
     <div className='skill'>
-      <h2>Skills</h2>
       {skills.map((s, index) => (
         <Range key={index} skill={s.skill} level={s.level} />
       ))}

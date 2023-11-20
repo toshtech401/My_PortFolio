@@ -32,6 +32,7 @@ span{
 .two{
     display: flex;
     gap: 15px;
+    height: 20vh;
 }
 
 svg{
@@ -40,6 +41,12 @@ svg{
     font-size: 40px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px grey;
+}
+svg:hover{
+    cursor: pointer;
+    color: rgb(201, 17, 17);
+    margin-bottom: 10px;
+    transition: ease-in-out 0.5s;
 }
 
 .me{
@@ -65,5 +72,6 @@ svg{
 
     .me{
         padding: 5px;
+        gap: 20px;
     }
 }

@@ -16,14 +16,13 @@ const Header = () => {
     <div className='header'>
       <div className='me'>
         <div className='tech'>
+          <p>Welcome To My World</p>
           <h2>Hi, I'm <span>Olatech</span></h2>
           <TypeAnimation 
             sequence={[
-              'A professional coder',
+              'A Professional coder',
               1000,
-              'A full-Stack developer',
-              1000,
-              'A Ui Designer',
+              'A Full-Stack developer',
               1000,
             ]}
             wrapper='span'

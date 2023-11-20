@@ -10,6 +10,28 @@
     overflow: hidden;
   }
 
+  .resume{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .display{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: rgb(22, 22, 22);
+  }
+
+  .display button{
+    padding: 10px  50px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    border: 1px solid rgb(123, 11, 11);
+
+  }
+
   .skill{
     padding: 30px 50px;
     display: flex;
@@ -38,7 +60,6 @@
     border: 1px solid red;
     animation: rot 4s ease infinite;
     transform: rotate(360deg);
-   /* transition: color 5s ease infinite; */
   }
   .skill-bar {
     height: 100%;
@@ -74,6 +95,15 @@
 @media screen and (max-width:950px) {
   .skill{
     padding: 10px;
+  }
+
+  .sett svg{
+    font-size: 4rem;
+  }
+
+  .display{
+    flex-direction: column;
+    gap: 10px;
   }
 }  
   

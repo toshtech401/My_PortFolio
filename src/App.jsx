@@ -8,6 +8,7 @@ import Skill from './components/Skill/Skill'
 import Testimonial from './components/Testimonial/Testimonial'
 import Footer from './components/Footer/Footer'
 import Year from './components/Header/Year'
+import Resume from './components/Skill/Resume'
 // import Github from './components/Github/Github'
 
 const App = () => {
@@ -17,12 +18,11 @@ const App = () => {
       <Header />
       <Features />
       <Project />
-      <Skill />
+      <Resume />
       <Testimonial />
       {/* <Github /> */}
       <Contact />
       <Footer />
-      <Year />
     </div>
   )
 }
