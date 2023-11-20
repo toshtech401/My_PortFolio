@@ -86,28 +86,28 @@ const Contact = () => {
           </div>
         </div>
         <form action="" onSubmit={handleSubmit}>
-          <div>
+          <div className='rrr'>
             <input type="text" placeholder='Name' name='name' value={formData.name} onChange={handleChange}/>
-            {errors.email && <div data-aos="zoom-in" style={{ color: 'red' }}>{errors.name}</div>}
+            {errors.email && <div className='error' style={{ color: 'orangered' }}>{errors.name}</div>}
           </div>
-          <div>
+          <div className='rrr'>
             <input type="text" placeholder='Phone Number' name='name' value={formData.number} onChange={handleChange}/>
-            {errors.number && <div data-aos="zoom-in" style={{ color: 'red' }}>{errors.number}</div>}
+            {errors.number && <div className='error' style={{ color: 'orangered' }}>{errors.number}</div>}
           </div>
-          <div>
+          <div className='rrr'>
             <input type="email" placeholder='Email' name='email' value={formData.email} onChange={handleChange}/>
-            {errors.email && <div data-aos="zoom-in" style={{ color: 'red' }}>{errors.email}</div>}
+            {errors.email && <div className='error' style={{ color: 'orangered' }}>{errors.email}</div>}
           </div>
-          <div>
+          <div className='rrr'>
             <input type="text" placeholder='Subject' name='subject' value={formData.subject} onChange={handleChange}/>
-            {errors.email && <div data-aos="zoom-in" style={{ color: 'red' }}>{errors.subject}</div>}
+            {errors.email && <div className='error' style={{ color: 'orangered' }}>{errors.subject}</div>}
           </div>
-          <div>
+          <div className='rrr'>
             <textarea name="message" placeholder='Message' value={formData.message} onChange={handleChange} id="" cols="30" rows="10"></textarea>
-            {errors.email && <div data-aos="zoom-in" style={{ color: 'red' }}>{errors.message}</div>}
+            {errors.email && <div className='error' style={{ color: 'orangered' }}>{errors.message}</div>}
           </div>
           <button class="btn">
-            Watch
+            Send Message
           </button>
         </form>
         </div>

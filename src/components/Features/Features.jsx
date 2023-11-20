@@ -11,7 +11,7 @@ import { BsBrowserChrome } from "react-icons/bs";
 
 const Features = () => {
   return (
-    <div className='feat'>
+    <div className='feat' id='features'>
         <div className='do'>
             <p>Features</p>
             <h2>What I Do</h2>

@@ -41,6 +41,7 @@ svg{
     font-size: 40px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px grey;
+    animation: bounce 2s infinite;
 }
 svg:hover{
     cursor: pointer;

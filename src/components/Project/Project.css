@@ -24,6 +24,7 @@
 }
 .clone img{
     height: 35vh;
+    width: 100%;
 }
 .cll{
     background-color: rgb(22, 22, 22);
@@ -32,6 +33,7 @@
     flex-direction: column;
     gap: 15px;
     border-radius: 20px;
+    width: 100%;
 }
 .app{
     display: flex;

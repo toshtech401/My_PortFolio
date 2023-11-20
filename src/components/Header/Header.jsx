@@ -13,7 +13,7 @@ import {TypeAnimation} from 'react-type-animation'
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div className='header' id='home'>
       <div className='me'>
         <div className='tech'>
           <p>Welcome To My World</p>
@@ -27,7 +27,7 @@ const Header = () => {
             ]}
             wrapper='span'
             speed={50}
-            style={{ fontSize: '2em', display: 'inline-block', color: 'white' }}
+            style={{ fontSize: '2em', display: 'inline-block', color: 'white', fontWeight: 600 }}
             repeat={Infinity}
           />
           <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I'm not adding motion just to spruce things up, but doing it in ways that.</p>

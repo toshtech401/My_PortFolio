@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Nav.css'
 import { MdOutlineMenu } from "react-icons/md";
 import { LiaTimesSolid } from "react-icons/lia";
+import {Link} from 'react-scroll'
 
 
 const Nav = () => {
@@ -38,11 +39,31 @@ const Nav = () => {
         </div>
 
         <ul className={`nav-links ${mobileMenuOpen ? 'open' : ''}`}>
-          <li><a href="">Home</a></li>
-          <li><a href="">Features</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Resume</a></li>
-          <li><a href="">Testimonials</a></li>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="features" smooth={true} duration={500}>
+              Features
+            </Link>
+          </li>
+          <li>
+            <Link to='projects' smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to='resume' smooth={true} duration={500}> 
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link to='testimonials' smooth={true} duration={500}>
+              Testimonials
+            </Link>
+          </li>
         </ul>
       </nav> 
     </div>

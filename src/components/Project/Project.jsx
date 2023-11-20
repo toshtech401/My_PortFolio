@@ -8,7 +8,7 @@ import { BsBrowserChrome } from "react-icons/bs";
 
 const Project = () => {
   return (
-    <div className='ject'>
+    <div className='ject' id='projects'>
         <div className='my'>
             <p>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
             <h2>My Projects</h2>

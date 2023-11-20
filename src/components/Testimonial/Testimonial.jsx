@@ -9,7 +9,7 @@ const Testimonial = () => {
         { image: image2, text: 'Choosing this service was one of the best decisions I ve made. The level of professionalism and the quality of work delivered are unmatched. The team is not only skilled but also incredibly responsive and supportive. I am grateful for their commitment to excellence' },
       ];
   return (
-    <div className='tess'>
+    <div className='tess' id='testimonials'>
         <div className='doe'>
             <p>WHAT CLIENTS SAY</p>
             <h2>Testimonial</h2>
